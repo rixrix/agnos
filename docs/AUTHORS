@@ -1,0 +1,11 @@
+# $Id: AUTHORS 105 2008-06-08 13:13:13Z richard.sentino $
+#
+# The format of this file was inspired by the Linux kernel CREDITS file.
+# Authors are listed alphabetically.
+#
+# The fields are: name (N), email (E), web-address (W), SVN account login (C),
+# PGP key ID and fingerprint (P), description (D), and snail-mail address (S).
+
+N: Richard Sentino
+E: richard.sentino@gmail.com
+D: Project Lead, Developer

@@ -1,0 +1,57 @@
+Table of Contents
+
+- Introduction
+- Release notes
+
+Introduction
+************
+
+This document contains the release notes for agnos and the bugfix releases
+after after each versions.
+
+Release notes
+*************
+
+June 25, 2009
+-------------
+  * Pushed agnos source codes to github as the official repository.
+  * YunikTest project renamed to agnos.
+
+Version 0.0.1
+-------------
+
+  What's New ?
+  ***********
+
+  Supported Languages
+  ------------------
+  PHP is the current supported language for its unit testing. Most test files
+  written in PHP-QAT testing framework are 95% compatible with agnos engine.
+  Please see limitations section for additional informations.
+
+  Basic Test Results Reporting
+  ----------------------------
+
+  agnos has a basic mechanism for generating reports after running the
+  tests. Reports are saved in agnos-reports/ directory in text file format.
+
+  Support for individual and recursive directory testing
+  ----------------------------------------------------
+
+  agnos supports testing for individual and recursive directory
+  testing. agnos permits users to specify single/multiple invidual testfile
+  from different directories. Multiple recursive directory testing is also
+  supported in this release.
+
+  Command Line Switches
+  ---------------------
+  agnos supports UNIX style CLI switches for invoking commands.
+
+  Known Bugs and Limitations
+  --------------------------
+  agnos doesn't support all of the PHP-QAT testing formats as this was too
+  specific for their language/configuration and usage.
+  A new/different format will be introduce on the next release.
+
+  This release only supports PHP language. Additional language support is one of
+  our main TODO for next few releases.
